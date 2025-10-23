@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+}
+
+section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.container {
+  padding-left: clamp(32px, 5%, 48px);
+  padding-right: clamp(32px, 5%, 48px);
+}
+
+.header {
+  margin-bottom: clamp(29px, 5%, 48px);
+  font-size: clamp(20px, 3vw, 30px);
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+
